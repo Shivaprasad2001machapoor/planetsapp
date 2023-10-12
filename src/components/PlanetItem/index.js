@@ -1,8 +1,8 @@
 import './index.css'
 
-const PlantItem = props => {
-  const {planetDetails} = props
+const PlanetItem = ({planetDetails}) => {
   const {name, imageUrl, description} = planetDetails
+
   return (
     <div>
       <img src={imageUrl} alt={name} className="pic" />
@@ -11,4 +11,5 @@ const PlantItem = props => {
     </div>
   )
 }
-export default PlantItem
+
+export default PlanetItem

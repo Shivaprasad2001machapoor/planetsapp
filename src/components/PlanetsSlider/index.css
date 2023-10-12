@@ -1,9 +1,3 @@
-/* .slider-container {
-  background-color: #419be0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-} */
 .slider-container {
   background-image: url('https://assets.ccbp.in/frontend/react-js/planets-app/planets-bg-img.png ');
   height: 100vh;
@@ -11,5 +5,4 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: aliceblue;
 }
